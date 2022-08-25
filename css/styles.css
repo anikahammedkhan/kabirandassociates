@@ -2,6 +2,10 @@ body {
     font-family: 'Merienda', cursive;
 }
 
+hr {
+    width: 25%;
+}
+
 .kaa_bg-color {
     background-color: #5E3030;
 }
@@ -10,10 +14,37 @@ body {
     background-color: #646A75;
 }
 
+.btn-color {
+    background-color: #BD6F6F;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 15px;
+}
 
+.btn-color:hover {
+    color: #fff;
+    background-color: rgb(107, 0, 62);
+}
+
+.social-icon-width {
+    width: 10%;
+}
 
 .nav-item .nav-link {
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #BD6F6F;
+}
+
+.how-can-we-help {
+    background-image: url(images/Corporate-law.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-attachment: fixed;
+    padding: 50px;
 }
