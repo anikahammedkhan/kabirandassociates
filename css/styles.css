@@ -41,10 +41,21 @@ a {
     color: #BD6F6F;
 }
 
+p {
+    text-align: justify;
+}
+
 .how-can-we-help {
-    background-image: url(images/Corporate-law.jpg);
+    background-image: url(Corporate-law.jpg);
     background-position: center center;
     background-size: auto;
     background-attachment: fixed;
-    padding: 50px;
+    padding: 50px 70px 50px 170px;
+}
+
+.right-img {
+    background-image: url(Corporate-law-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: auto;
 }
