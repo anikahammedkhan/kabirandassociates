@@ -1,7 +1,19 @@
+body {
+    font-family: 'Merienda', cursive;
+}
+
 .kaa_bg-color {
     background-color: #5E3030;
 }
 
-body {
-    font-family: 'Merienda', cursive;
+.kaa_nav-bg-color {
+    background-color: #646A75;
+}
+
+
+
+.nav-item .nav-link {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
