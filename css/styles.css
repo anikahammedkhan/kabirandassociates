@@ -6,6 +6,10 @@ hr {
     width: 25%;
 }
 
+.hr-white {
+    border: 1px solid white;
+}
+
 .kaa_bg-color {
     background-color: #5E3030;
 }
@@ -58,4 +62,31 @@ a {
     background-attachment: fixed;
     background-position: center center;
     background-size: auto;
+}
+
+.our-team-section {
+    background-image: url(Partner-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: auto;
+}
+
+.queries-section {
+    background-image: url(Corporate-law-2.jpg);
+    background-position: center center;
+    background-size: auto;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+#message-field {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
 }
