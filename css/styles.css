@@ -111,3 +111,11 @@ input {
 .hr-black {
     border: 1px solid black;
 }
+
+.coming-soon {
+    font-size: 60px;
+}
+
+.under-constraction {
+    height: 500px;
+}
