@@ -8,11 +8,36 @@ hr {
     width: 25%;
 }
 
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
 .nav-link.active {
-    color: yellow;
     background-color: none;
     border-color: none;
-    border-bottom: 3px solid white;
+    border-bottom: 5px solid white;
 }
 
 .hr-white {
