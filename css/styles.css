@@ -8,6 +8,13 @@ hr {
     width: 25%;
 }
 
+.nav-link.active {
+    color: yellow;
+    background-color: none;
+    border-color: none;
+    border-bottom: 3px solid white;
+}
+
 .hr-white {
     border: 1px solid white;
 }
