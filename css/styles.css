@@ -1,3 +1,5 @@
+/* home page css here:  */
+
 body {
     font-family: 'Merienda', cursive;
 }
@@ -11,15 +13,16 @@ hr {
 }
 
 .kaa_bg-color {
-    background-color: #5E3030;
+    /* background-color: #086be5; */
+    background-color: #0077b6;
 }
 
 .kaa_nav-bg-color {
-    background-color: #646A75;
+    background-color: #00b4d8;
 }
 
 .btn-color {
-    background-color: #BD6F6F;
+    background-color: #0077b6;
     color: #fff;
     font-size: 20px;
     padding: 8px 15px;
@@ -27,7 +30,7 @@ hr {
 
 .btn-color:hover {
     color: #fff;
-    background-color: rgb(107, 0, 62);
+    background-color: #00b4d8;
 }
 
 .social-icon-width {
@@ -42,7 +45,11 @@ hr {
 
 a {
     text-decoration: none;
-    color: #BD6F6F;
+    color: #0077b6;
+}
+
+p {
+    font-size: 18px;
 }
 
 .p-align {
@@ -50,7 +57,7 @@ a {
 }
 
 .how-can-we-help {
-    background-image: url(Corporate-law.jpg);
+    background-image: url(../images/Corporate-law.jpg);
     background-position: center center;
     background-size: auto;
     background-attachment: fixed;
@@ -58,21 +65,21 @@ a {
 }
 
 .right-img {
-    background-image: url(Corporate-law-1.jpg);
+    background-image: url(../images/Corporate-law-1.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: auto;
 }
 
 .our-team-section {
-    background-image: url(Partner-bg.jpg);
+    background-image: url(../images/Partner-bg.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: auto;
 }
 
 .queries-section {
-    background-image: url(Corporate-law-2.jpg);
+    background-image: url(../images/Corporate-law-2.jpg);
     background-position: center center;
     background-size: auto;
 }
@@ -93,4 +100,14 @@ input {
 
 .address-section {
     background-color: #1d1d1d;
+}
+
+/* about us page css here: */
+.bg-c-light {
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+.hr-black {
+    border: 1px solid black;
 }
